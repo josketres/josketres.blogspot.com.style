@@ -32,3 +32,10 @@ h3.post-title a:visited {
   font-size: 60px;
   font-weight: 500;
 }
+
+.Header .description {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  line-height:2.2em;
+}

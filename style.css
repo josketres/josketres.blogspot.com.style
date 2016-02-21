@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,700);
 
 .post-body {
   font-family: 'Merriweather', serif;
@@ -31,6 +31,17 @@ h3.post-title a:visited {
   font-family: 'Raleway', sans-serif;
   font-size: 60px;
   font-weight: 500;
+}
+
+
+.Header h1:before {
+  content: 'Garabatero Público';
+  display: block;
+  font-size: 22px;
+  font-weight: 300;
+  position: absolute;
+  top: -23px;
+  left: 123px;
 }
 
 .Header .description {

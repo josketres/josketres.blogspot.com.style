@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300);
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,700);
 
+/* reset */
+.navbar.section {
+  display: none;
+}
+.content-inner {
+  padding-top: 0;
+}
+
 .post-body {
   font-family: 'Merriweather', serif;
   color: #151515;

@@ -23,21 +23,18 @@ h3.post-title a:visited {
 
 /* header */
 
-.header.section {
-  margin: 20px 0 30px 0;
-}
-
 .Header h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  color: #fff;
   font-size: 60px;
   font-weight: 500;
 }
 
-
 .Header h1:before {
   content: 'Garabatero Público';
   display: block;
+    color: #fff;
   font-size: 22px;
   font-weight: 300;
   position: absolute;
@@ -48,7 +45,16 @@ h3.post-title a:visited {
 .Header .description {
   text-align: center;
   font-family: 'Raleway', sans-serif;
+    color: #fff;
   font-size: 22px;
   line-height: 1.9em;
   margin: 0;
+}
+
+.header.section {
+  margin: 0;
+  background-image: url(https://rawgit.com/josketres/josketres.blogspot.com.style/master/header-bg.png);
+  height: 356px;
+  padding-top: 120px;
+  box-sizing: border-box;
 }

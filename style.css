@@ -42,12 +42,12 @@ h3.post-title a:visited {
 .Header h1:before {
   content: 'Garabatero Público';
   display: block;
-    color: #fff;
+  color: #fff;
   font-size: 22px;
   font-weight: 300;
   position: absolute;
   top: -23px;
-  left: 123px;
+  left: 164px;
 }
 
 .Header .description {
